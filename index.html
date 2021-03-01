@@ -1,0 +1,741 @@
+<html>
+    <head>
+        <title>TurboHost</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+        <meta name="og:title" content="TurboHost">
+        <link rel="icon" href="http://img.devsforum.net/tr/img/o3F5H1.png" type="image/x-icon" />
+        <meta name="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+        <!-- Custom Stylesheet Files -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+        <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="./css/tempscity.css" rel="stylesheet">
+        
+        <!-- Javascript Files -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+       <script>
+        AOS.init();
+        </script>    
+    </head>
+</html>
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-turbohost txt-turbohost">
+    <a class="navbar-brand" href="#"><img class="navbar-brand-img" src="http://img.devsforum.net/tr/img/o3F5H1.png"></a>
+    <button style="color: #fff;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#visualserver">Visual Server</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hosting">Hosting</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#hosting">Reseller</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#domain">Domain</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="btn btn-turbohost" onclick="login()">LOGIN</a></li>
+        </ul>
+    </div>
+    </div>
+  </nav>
+<script>
+    function login() {
+        Swal.fire("Login", "Under Maintence", "warning")
+    }
+</script>
+<!-- Navbar End -->
+
+<!-- Jumbotron Start -->
+<header class="masthead">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7 py-5">
+                <h1 class="mb-4">TurboHost</h1>
+                <h2 style="font-size: 16px;" class="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </h2>
+                <br><br>
+                <div class="btn btn-turbohost">Buy Now</div>
+            </div>
+            <div class="col-lg-5">
+                <div class="py-5 px-4 masthead-cards">
+                    <div class="d-flex">
+                        <a href="#hosting" class="w-50 pr-3 pb-4">
+                            <div class="card border-0 border-bottom-red shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-rocket fa-4x my-2"></i>
+                                    </div>
+                                    Hosting
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#hosting" class="w-50 pl-3 pb-4">
+                            <div class="card border-0 border-bottom-blue shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-database fa-4x my-2"></i>
+                                    </div>
+                                    Reseller Hosting
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="#domain" class="w-50 pr-3">
+                            <div class="card border-0 border-bottom-yellow shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-4x fa-globe my-2"></i>
+                                    </div>
+                                    Domain
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#visualserver" class="w-50 pl-3">
+                            <div class="card border-0 border-bottom-green shadow-lg shadow-hover">
+                                <div class="card-body text-center">
+                                    <div class="text-center">
+                                        <i class="fa fa-4x fa-server my-2"></i>
+                                    </div>
+                                    Virtual Server
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="shape"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+        <defs>
+            <style>
+                .a {
+                    fill: none;
+                }
+                
+                .b {
+                    clip-path: url(#a);
+                }
+                
+                .c,
+                .d {
+                    fill: #f9f9fc;
+                }
+                
+                .d {
+                    opacity: 0.5;
+                    isolation: isolate;
+                }
+            </style>
+            <clipPath id="a">
+                <rect class="a" width="1920" height="75"></rect>
+            </clipPath>
+        </defs>
+        <title>wave</title>
+        <g class="b">
+            <path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path>
+        </g>
+        <g class="b">
+            <path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path>
+        </g>
+    </svg>
+</header>
+<!-- Jumbotron End -->
+
+<br><br><br>
+
+<!-- Features Start -->
+<section  id="features" class="container my-5">
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Why should I use Turbohost?</h2>
+    <p class="lead grey-text text-center w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam.</p>
+    <div class="row">
+        <div class="col-lg-5 text-center text-lg-left">
+        <img width="425" class="img-fluid" src="https://cdn.discordapp.com/attachments/742496324271734846/815610458265485372/feature.png" alt="Sample image">
+      </div>
+      <div class="col-lg-7">
+        <div class="row mb-3">
+          <div class="col-1">
+            <i class="fas fa-share fa-lg indigo-text"></i>
+          </div>
+          <div class="col-xl-10 col-md-11 col-10">
+            <h5 class="font-weight-bold mb-3">Feature 1</h5>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+              quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-1">
+            <i class="fas fa-share fa-lg indigo-text"></i>
+          </div>
+          <div class="col-xl-10 col-md-11 col-10">
+            <h5 class="font-weight-bold mb-3">Feature 2</h5>
+            <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima veniam,
+              quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <i class="fas fa-share fa-lg indigo-text"></i>
+          </div>
+          <div class="col-xl-10 col-md-11 col-10">
+            <h5 class="font-weight-bold mb-3">Feature 3</h5>
+            <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit enim ad minima
+              veniam, quis nostrum exercitationem ullam. Reprehenderit maiores aperiam assumenda deleniti hic.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Features End -->
+
+<br><br><br>
+
+<!-- Testimonials Start -->
+<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -10%;" viewBox="0 0 1440 320"><path fill="#e2e2e2" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,202.7C384,203,480,181,576,149.3C672,117,768,75,864,85.3C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+<div id="testimonials" class="gtco-testimonials">
+    
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Testimonials</h2>
+    <div class="owl-carousel owl-carousel1 owl-theme">
+      <div>
+        <div class="card text-center"><img class="card-img-top" src="http://img.devsforum.net/tr/img/i10P4Z10.png" alt="">
+          <div class="card-body">
+            <h5>John Doe <br />
+              <span> Shopper </span></h5>
+              <p class="card-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut massa pulvinar, efficitur diam vitae, tempor est. Mauris rhoncus dolor. ” </p>
+            </div>
+        </div>
+      </div>
+      <div>
+        <div class="card text-center"><img class="card-img-top" src="http://img.devsforum.net/tr/img/i10P4Z10.png" alt="">
+          <div class="card-body">
+            <h5>Rumuz <br />
+              <span> Shopper </span></h5>
+              <p class="card-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut massa pulvinar, efficitur diam vitae, tempor est. Mauris rhoncus dolor. ” </p>
+            </div>
+        </div>
+      </div>
+      <div>
+        <div class="card text-center"><img class="card-img-top" src="http://img.devsforum.net/tr/img/i10P4Z10.png" alt="">
+          <div class="card-body">
+            <h5>Claudette <br />
+              <span> Shopper </span></h5>
+              <p class="card-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut massa pulvinar, efficitur diam vitae, tempor est. Mauris rhoncus dolor. ” </p>
+            </div>
+        </div>
+      </div>
+      <div>
+        <div class="card text-center"><img class="card-img-top" src="http://img.devsforum.net/tr/img/i10P4Z10.png" alt="">
+          <div class="card-body">
+            <h5>ByQush <br />
+              <span> Shopper </span></h5>
+            <p class="card-text">“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut massa pulvinar, efficitur diam vitae, tempor est. Mauris rhoncus dolor. ” </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2e2e2" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,74.7C384,75,480,53,576,58.7C672,64,768,96,864,101.3C960,107,1056,85,1152,85.3C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<!-- Testimonials End -->
+
+<br>
+
+<!-- Shop [Visual Server] Start -->
+<h2 id="visualserver" class="h1-responsive font-weight-bold text-center my-5">Visual Servers</h2>
+<div  id="generic_price_table">   
+    <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">
+                            <div class="generic_head_price clearfix">
+                                <div class="generic_head_content clearfix">
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Pack 1</span>
+                                    </div>
+                                </div>
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                        <span class="sign">$</span>
+                                        <span class="currency">99</span>
+                                        <span class="cent">.99</span>
+                                        <span class="month">/MON</span>
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>Feature</span> 1</li>
+                                    <li><span>Feature</span> 2</li>
+                                    <li><span>Feature</span> 3</li>
+                                    <li><span>Feature</span> 4</li>
+                                    <li><span>Feature</span> 5</li>
+                                </ul>
+                            </div>
+                            <div class="generic_price_btn clearfix">
+                                <a class="" href="">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">
+                            <div class="generic_head_price clearfix">
+                                <div class="generic_head_content clearfix">
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Pack 2</span>
+                                    </div>
+                                </div>
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                        <span class="sign">$</span>
+                                        <span class="currency">99</span>
+                                        <span class="cent">.99</span>
+                                        <span class="month">/MON</span>
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>Feature</span> 1</li>
+                                    <li><span>Feature</span> 2</li>
+                                    <li><span>Feature</span> 3</li>
+                                    <li><span>Feature</span> 4</li>
+                                    <li><span>Feature</span> 5</li>
+                                </ul>
+                            </div>
+                            <div class="generic_price_btn clearfix">
+                                <a class="" href="">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">
+                            <div class="generic_head_price clearfix">
+                                <div class="generic_head_content clearfix">
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>Pack 3</span>
+                                    </div>
+                                </div>
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">
+                                        <span class="sign">$</span>
+                                        <span class="currency">99</span>
+                                        <span class="cent">.99</span>
+                                        <span class="month">/MON</span>
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="generic_feature_list">
+                                <ul>
+                                    <li><span>Feature</span> 1</li>
+                                    <li><span>Feature</span> 2</li>
+                                    <li><span>Feature</span> 3</li>
+                                    <li><span>Feature</span> 4</li>
+                                    <li><span>Feature</span> 5</li>
+                                </ul>
+                            </div>
+                            <div class="generic_price_btn clearfix">
+                                <a class="" href="">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>	
+            </div>
+        </section>             
+    </div>
+<!-- Shop [Visual Server] End -->
+
+<br><br><br>
+
+<!-- Shop [Domain] Start -->
+<svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom: -8%;" viewBox="0 0 1440 320"><path fill="#0E0B16" fill-opacity="1" d="M0,160L48,170.7C96,181,192,203,288,202.7C384,203,480,181,576,149.3C672,117,768,75,864,85.3C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<div id="domain" style="margin-bottom: -2%;" class="jumbotron bg-turbohost">
+    <h2 class="h1-responsive font-weight-bold text-center" style="margin-bottom: -3%;">Domain</h2>
+    <p class="h1-responsive font-weight-bold text-center my-5">Register the most suitable domain name for your website.</p>
+    <div class="row justify-content-center padding">
+        <div class="col-md-8 ftco-animate fadeInUp ftco-animated">
+            <form action="#" class="domain-form">
+                <div class="form-group d-md-flex"> <input type="text" class="form-control px-4" placeholder="Enter your domain name..."> <input type="submit" class="search-domain btn btn-primary px-5" value="Search Domain"> </div>
+            </form>
+            <p class="domain-price text-center"><span><small>.com</small> $10.75</span> <span><small>.net</small> $19.90</span> <span><small>.biz</small> $5.95</span> <span><small>.gov</small> $3.95</span></p>
+        </div>
+    </div>
+  </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0E0B16" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,74.7C384,75,480,53,576,58.7C672,64,768,96,864,101.3C960,107,1056,85,1152,85.3C1248,85,1344,107,1392,117.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+<!-- Shop [Domain] End -->
+
+<br><br><br>
+
+<!-- Shop [Hosting & Reseller] Start -->
+<h2 id="hosting" class="h1-responsive font-weight-bold text-center my-5">Hosting & Reseller Hosting</h2>
+<div  id="tabs-container">
+    <ul class="tabs-menu">
+        <div class="container taeb-switch left text-center">
+            <a class="taeb active" taeb-direction="left" id="one-tab" for="one" href="#normal-hosting"><i class="fa fa-server"></i> Hosting</a><!--
+        --><a class="taeb" taeb-direction="right" id="two-tab" for="two" href="#reseller-hosting"><i class="fa fa-database"></i> Reseller Hosting</a>
+          </div>
+    </ul>
+    <div  class="tab">
+      <div id="normal-hosting" class="tab-content">
+        <div id="generic_price_table">   
+            <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-rocket"></i> Hosting Pack 1</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-rocket"></i> Hosting Pack 2</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-rocket"></i> Hosting Pack 3</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                </section>             
+            </div>
+      </div>
+      <div id="reseller-hosting" class="tab-content">
+        <div id="generic_price_table">   
+            <section>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-database"></i> Reseller Pack 1</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-database"></i> Reseller Pack 2</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="generic_content clearfix">
+                                    <div class="generic_head_price clearfix">
+                                        <div class="generic_head_content clearfix">
+                                            <div class="head_bg"></div>
+                                            <div class="head">
+                                                <span><i class="fa fa-database"></i> Reseller Pack 3</span>
+                                            </div>
+                                        </div>
+                                        <div class="generic_price_tag clearfix">	
+                                            <span class="price">
+                                                <span class="sign">$</span>
+                                                <span class="currency">99</span>
+                                                <span class="cent">.99</span>
+                                                <span class="month">/MON</span>
+                                            </span>
+                                        </div>
+                                    </div>                            
+                                    <div class="generic_feature_list">
+                                        <ul>
+                                            <li><span>Feature</span> 1</li>
+                                            <li><span>Feature</span> 2</li>
+                                            <li><span>Feature</span> 3</li>
+                                            <li><span>Feature</span> 4</li>
+                                            <li><span>Feature</span> 5</li>
+                                        </ul>
+                                    </div>
+                                    <div class="generic_price_btn clearfix">
+                                        <a class="" href="">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>	
+                    </div>
+                </section>             
+            </div>
+      </div>
+    </div>
+  </div>
+<!-- Shop [Hosting & Reseller] End -->
+
+<br><br><br>
+
+<!-- Footer Start -->
+<svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+    <defs>
+        <style>
+            .a {
+                fill: none;
+            }
+            
+            .be {
+                clip-path: url(#a);
+            }
+            
+            .ce,
+            .de {
+                fill: #0E0B16;
+            }
+            
+            .de {
+                opacity: 0.5;
+                isolation: isolate;
+            }
+        </style>
+        <clipPath id="a">
+            <rect class="a" width="1920" height="75"></rect>
+        </clipPath>
+    </defs>
+    <title>wave</title>
+    <g class="be">
+        <path class="ce" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path>
+    </g>
+    <g class="be">
+        <path class="de" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path>
+    </g>
+    <g class="be">
+        <path class="de" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path>
+    </g>
+    <g class="be">
+        <path class="de" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path>
+    </g>
+</svg>
+<footer class="bg-turbohost">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="http://img.devsforum.net/tr/img/o3F5H1.png" alt="" width="180" class="mb-3">
+          <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+          <ul class="list-inline mt-4">
+            <li class="social-tempscity list-inline-item tippy" data-tippy-content="Twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li class="social-tempscity list-inline-item tippy"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li class="social-tempscity list-inline-item tippy"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#visualserver" class="text-muted">Visual Server</a></li>
+            <li class="mb-2"><a href="#hosting" class="text-muted">Hosting</a></li>
+            <li class="mb-2"><a href="#domain" class="text-muted">Domain</a></li>
+            <li class="mb-2"><a href="#hosting" class="text-muted">Reseller Hosting</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-2"><a href="#" class="text-muted">Login</a></li>
+            <li class="mb-2"><a href="#" class="text-muted">Register</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-lg-0">
+          <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
+          <p class="text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+          <div class="contact-bar">
+            <i class="fas fa-mobile-alt"></i> +90 05** *** ** **<br>
+            <i class="fa fa-envelope"></i> support@temps.city<br>
+            <i class="fa fa-envelope"></i> contact@temps.city
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyrights -->
+    <div class="bg-tempscityCopy py-4">
+      <div class="container text-center">
+          <!-- WARNING -->
+          <!-- In our free themes, the word "by Temps City" must stop, in case of deletion, legal action will be initiated against you. -->
+        
+          <!-- UYARI -->
+          <!-- Ücretsiz temalarımızda "by Temps City" kelimesi durmalı, silinmesi durumunda size karşı yasal işlem başlatılacaktır. -->
+        <p class="text-muted mb-0 py-2">Copyright &copy2021 Turbo Host, All right reserved. | This template made with <i style="color: red;" class="fa fa-heart"></i> by <a href="https://temps.city">Temps City</a></p>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <script src="https://unpkg.com/tippy.js@6" type="0a8997c4a0ff09dcddf89327-text/javascript"></script>
+  <script type="0a8997c4a0ff09dcddf89327-text/javascript">
+        tippy('.tippy', {arrow: true,animation: 'scale',});
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+  <script src='./js/tempscity.js'></script>
+  <!-- 
+              <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+  </script> -->
+<!-- Footer End -->
